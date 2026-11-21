@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.61.12",
+    "@clerk/react": "^6.19.3",
     "@tailwindcss/vite": "^4.3.5",
     "axios": "^1.21.1",
     "lucide-react": "^1.76.0",
