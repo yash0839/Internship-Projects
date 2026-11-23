@@ -7,20 +7,26 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import RiderDashboard from "./pages/RiderDashboard";
 import DriverDashboard from "./pages/DriverDashboard";
+import BackendTest from "./components/BackendTest";
+import ProfileSetup from "./pages/ProfileSetup";
+import BookRide from "./pages/BookRide";
+
 
 
 function App() {
   return (
     <Routes>
 
-      
+
       <Route path="/" element={<Home />} />
 
       <Route path="/login" element={<Login />} />
 
       <Route path="/register" element={<Register />} />
+      <Route path="/api-test" element={<BackendTest />} />
+      <Route path="/profile-setup" element={<ProfileSetup />} />
+      <Route path="/book-ride" element={<BookRide />} />
 
-      
       <Route
         path="/dashboard"
         element={
@@ -36,7 +42,7 @@ function App() {
         }
       />
 
-      
+
       <Route
         path="/rider-dashboard"
         element={
@@ -52,7 +58,7 @@ function App() {
         }
       />
 
-      
+
       <Route
         path="/driver-dashboard"
         element={

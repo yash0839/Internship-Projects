@@ -24,7 +24,7 @@ function Register() {
           routing="path"
           path="/register"
           signInUrl="/login"
-          fallbackRedirectUrl="/dashboard"
+          fallbackRedirectUrl="/profile-setup"
         />
 
       </div>
